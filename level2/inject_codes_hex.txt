@@ -1,0 +1,2 @@
+48 83 ec 08          	/*sub    $0x8,%rsp*/
+ba fa 97 b9 59       	/*mov    $0x59b997fa,%edx*/
