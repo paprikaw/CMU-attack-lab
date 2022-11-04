@@ -819,12 +819,12 @@ Disassembly of section .text:
   401847:	e8 f4 f5 ff ff       	callq  400e40 <exit@plt>
 
 000000000040184c <hexmatch>:
-  40184c:	41 54                	push   %r12
-  40184e:	55                   	push   %rbp
-  40184f:	53                   	push   %rbx
-  401850:	48 83 c4 80          	add    $0xffffffffffffff80,%rsp
+  40184c:	41 54                	push   %r12 # 8
+  40184e:	55                   	push   %rbp # 8
+  40184f:	53                   	push   %rbx # 8
+  401850:	48 83 c4 80          	add    $0xffffffffffffff80,%rsp # $rsp - 0x80
   401854:	41 89 fc             	mov    %edi,%r12d
-  401857:	48 89 f5             	mov    %rsi,%rbp
+  401857:	48 89 f5             	mov    %rsi,%rb
   40185a:	64 48 8b 04 25 28 00 	mov    %fs:0x28,%rax
   401861:	00 00 
   401863:	48 89 44 24 78       	mov    %rax,0x78(%rsp)

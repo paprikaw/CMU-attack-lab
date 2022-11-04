@@ -11,3 +11,8 @@ https://www.notion.so/baixucs/attack-lab-6318ecdacf46428abefd264c0d76f6a9
 从hex decimal编码的值生成input string:
 
 ```./hex2raw < inject_codes.d > ans2_output```
+
+# phase 3
+
+rsp 指向: 0x5561dc9f
+0x5561dc78
